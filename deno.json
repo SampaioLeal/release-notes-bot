@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --env main.ts",
+    "run": "deno run -A --env main.ts"
+  },
+  "imports": {
+    "@aws-sdk/client-bedrock-runtime": "npm:@aws-sdk/client-bedrock-runtime@^3.839.0",
+    "octokit": "npm:octokit@^5.0.3"
+  }
+}
